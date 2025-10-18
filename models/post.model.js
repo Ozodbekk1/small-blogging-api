@@ -10,6 +10,6 @@ const postSchema = new Schema(
   { timestamps: true }
 );
 
-const postModel = model("post", postSchema);
+const postModel = model("Post", postSchema);
 
 export default postModel;
